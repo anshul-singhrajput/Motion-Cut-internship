@@ -1,0 +1,22 @@
+.BlogItem{
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blogcontainer{
+margin: 88px;
+}
+
+.blogcontainer h1{
+    font-family: 'Roboto Slab', serif;
+    margin: 23px;
+}
+.BlogItem p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 8px 23px;
+    margin: 12px 0;
+}

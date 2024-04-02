@@ -1,0 +1,45 @@
+.contactform {
+    padding: 0 258px;
+    padding-top: 144px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contactform h1 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 6px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+
+
+
+#emailHelp{
+    font-size: 12px;
+    color: cadetblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 8px 23px;
+    margin: 12px 0;
+}

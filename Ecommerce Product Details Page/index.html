@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Ecommerce Product Page</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fas fa-shopping-cart"></i>
+        </ul>
+    </nav>
+    <header>
+        <h1>APPLE iPhone 12 (Blue , 64 GB)</h1>
+    </header>
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="/img/a1.jpeg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="/img/a1.jpeg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="/img/a2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="/img/a3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="img/a4.jpeg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="product-info">
+                <h2>Product Description</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea dolorem tempore delectus harum dolore, commodi facere omnis error blanditiis mollitia, neque cum similique voluptatum reprehenderit quo voluptate labore, ab provident laudantium autem placeat?</p>
+                <br>
+                <div class="quantity">
+                    <p><strong>Quantity :</strong></p>
+                    <input type="number" min="1" max="5" value="1">
+                </div>
+                <br>
+                <h3>Price: &#8377; 56,998</h3>
+                <h3><strike>&#8377; 76,999</strike></h3>
+                <!-- <button id="add-to-cart">Add to Cart</button> -->
+                <div class="btn-box">
+                    <button class="cart-btn" id="add-to-cart">Add to Cart</button>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+            </div>
+            <!-- <div class="pname">T-Shirts for Men</div> -->
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <!-- <div class="price">$40</div> -->
+           
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Shopping Cart</h2>
+        <br>
+        <ul id="cart-items">
+            <!-- Cart items will be added here -->
+        </ul>
+        <p><strong>Total: </strong>&#8377; <span id="cart-total">0.00</span></p>
+    </div>
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destination Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .destination {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination img {
+            max-width: 45%;
+            height: auto;
+        }
+
+        .button {
+  display: inline-block;
+  border-radius: 63px;
+  background-color: #a8b1e7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Destination Guide</h1>
+    </header>
+    <nav>
+        <a href="#destination1">Madku Dweep</a>
+        <a href="#destination2">Mainpat</a>
+        <a href="#destination3">Chirmiri</a>
+    </nav>
+    <section id="destination1" class="destination">
+        <h2>Madku Dweep</h2>
+        <img src="images/madku dweep.jpg" alt="Madku Dweep">
+        <p> Madku dweep is a beautiful island situated near the silent river, Shivnath, in the Bilaspur district of
+            Chhattisgarh.
+            The name Madku stems out from the fact that the island is of the shape of a frog.
+            The beauty of this island is considered to be spell-bounding.The picturesque Madku Dweep has an area of
+            around 24 hectares and is full of greenery. The island is also famous for its ancient temples and their
+            historical and archaeological importance.</p>
+        <button class="button" style="vertical-align:middle"><span> <a href="destination1.html">Learn
+                    More</a></span></button>
+
+    </section>
+    <section id="destination2" class="destination">
+        <h2>Mainpat</h2>
+        <img src="images/mainpat.jpg" alt="Mainpat">
+        <p>Mainpat is an underrated hill station with green pastures, deep valleys, breathtaking waterfalls, dense
+            forests and untouched rivulets. The hill station hasn’t been completely commercialised yet and receives a
+            relatively smaller influx of tourists compared to its counterparts. Mainpat is often called as Shimla of
+            Chhattisgarh and Mini Tibet owing to its huge Tibetan population and influence over the area. The Tibetan
+            refugees were rehabilitated in Mainpat after the Chinese invasion of Tibet and have since found a home in
+            Mainpat. That’s another great thing about Mainpat, the confluence of cultures and diverse traditions only
+            add to the picturesque village’s charm.</p>
+            <button class="button" style="vertical-align:middle"><span> <a href="destination2.html">Learn
+                More</a></span></button>
+    </section>
+    <section id="destination3" class="destination">
+        <h2>Chirmiri</h2>
+        <img src="images/chirmiri.jpg" alt="Chirmiri">
+        <p>Chirmiri is a beautiful hill station in the Koriya district of Chhattisgarh. Chirimiri or Chirmiri is
+            referred to as the ‘Jannat/Heaven of Chhattisgarh’. The lush greenery, mountains and rivers make it a
+            perfect getaway destination for anyone looking to relax. This scenic town is also known for its coal mines.
+            There are several temples and other notable places that are famous among tourists. Chirmiri is well
+            connected to major cities via rail and road. Chirmiri is situated at an altitude of 579 m above sea level.
+            It lies along the bank of Hasdeo River. The river is one of the most prominent tributaries of the Mahanadi
+            River. The weather is pleasant all year round, and there are dense forests in the region which houses exotic
+            flora and fauna.</p>
+            <button class="button" style="vertical-align:middle"><span> <a href="destination3.html">Learn
+                More</a></span></button>
+    </section>
+    <footer>
+        <p>Contact Us | Follow Us on Social Media</p>
+    </footer>
+</body>
+
+</html>
